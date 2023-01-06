@@ -1,0 +1,8 @@
+nltk.download()
+from nltk.book import *
+from nltk.corpus import brown
+brown.words(categories='news')
+from nltk.corpus import inaugural
+inaugural.fileids
+import nltk
+fd=nltk.FreqDist(text1.split())
